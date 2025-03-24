@@ -23,6 +23,7 @@ ul {
 nav {
     background-color: #1a1a1d;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -38,6 +39,7 @@ nav p {
 }
 .navUl ul {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 0;
     margin-top: 1em;
 }
@@ -101,7 +103,8 @@ main > section:not(section:first-of-type) > div {
     margin-bottom: 20px;
 }
 .mainLogo > img {
-    min-width: 300px;
+    width: 25vw;
+    height: 25vw;
 }
 .mainLogo p {
     font-size: 22px;
@@ -151,6 +154,7 @@ footer h4 {
 }
 footer section:first-of-type {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .footerLogo img {
