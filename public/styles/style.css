@@ -58,6 +58,7 @@ nav p {
     padding-block: 50px;
     background-color: #334d5c;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -98,13 +99,13 @@ main > section:not(section:first-of-type) > div {
 }
 .mainLogo {
     display: flex;
-    gap: 250px;
+    column-gap: 250px;
     margin-inline: 125px;
     margin-bottom: 20px;
 }
 .mainLogo > img {
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
 }
 .mainLogo p {
     font-size: 22px;
