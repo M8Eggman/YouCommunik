@@ -84,6 +84,7 @@ main > section:not(section:first-of-type) > div {
 }
 .mainTitreH2 {
     margin-top: 75px;
+    margin-bottom: 50px;
     background-color: #334d5c;
 }
 .mainTitreH2 h2 {
@@ -92,6 +93,19 @@ main > section:not(section:first-of-type) > div {
     font-weight: 450;
     margin-block: 20px;
     margin-inline: 75px;
+}
+.mainLogo {
+    display: flex;
+    gap: 250px;
+    margin-inline: 125px;
+    margin-bottom: 20px;
+}
+.mainLogo > img {
+    min-width: 300px;
+}
+.mainLogo p {
+    font-size: 22px;
+    font-weight: 400;
 }
 
 /* div 2 */
