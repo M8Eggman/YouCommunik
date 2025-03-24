@@ -76,6 +76,25 @@ nav p {
     font-size: 40px;
 }
 /* section 2 3 4 */
+/* div 1 */
+main > section:not(section:first-of-type) > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainTitreH2 {
+    margin-top: 75px;
+    background-color: #334d5c;
+}
+.mainTitreH2 h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: 450;
+    margin-block: 20px;
+    margin-inline: 75px;
+}
+
+/* div 2 */
 .mainUl {
     background-color: #eae3d6;
 }
@@ -88,14 +107,18 @@ nav p {
     justify-content: center;
     column-gap: 150px;
     margin: 0;
-    padding-inline: 200px;
-    padding-block: 20px;
+    padding-inline: 175px;
+    padding-block: 40px;
 }
 .mainUl ul li {
     width: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.mainUl p {
+    font-weight: 500;
+    font-size: 17px;
 }
 
 /* footer */
