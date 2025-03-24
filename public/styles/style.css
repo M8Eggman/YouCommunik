@@ -12,3 +12,32 @@ ul {
 }
 
 /* nav */
+nav {
+    background-color: #1a1a1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav p {
+    color: white;
+}
+.navLogo img {
+    padding-left: 20px;
+    width: 300px;
+}
+.navUl img {
+    width: 80px;
+}
+.navUl ul {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+.navUl ul li {
+    width: 120px;
+}
+.navUl ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
