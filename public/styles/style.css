@@ -107,6 +107,9 @@ main > section:not(section:first-of-type) > div {
     font-size: 22px;
     font-weight: 400;
 }
+.mainLogo div > p:first-of-type {
+    margin-top: 0;
+}
 
 /* div 2 */
 .mainUl {
