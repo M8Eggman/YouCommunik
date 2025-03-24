@@ -75,3 +75,39 @@ nav p {
 #section1 p {
     font-size: 40px;
 }
+/* section 2 3 4 */
+
+
+/* footer */
+footer {
+    padding-top: 25px;
+    background-color: #393a3b;
+}
+footer p, footer h4 {
+    color: white;
+}
+footer h4 {
+    font-size: 20px;
+}
+footer section:first-of-type {
+    display: flex;
+    justify-content: space-around;
+}
+.footerLogo img {
+    width: 75px;
+}
+.footerLogo ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    padding-top: 20px;
+}
+.footerP {
+    display: flex;
+    justify-content: end;
+}
+.footerP p {
+    margin: 0;
+    padding-block: 30px;
+    padding-right: 10px;
+}
