@@ -99,9 +99,13 @@ main > section:not(section:first-of-type) > div {
 }
 .mainLogo {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 250px;
     margin-inline: 125px;
     margin-bottom: 20px;
+}
+.mainLogo > div {
+    max-width: 47vw;
 }
 .mainLogo > img {
     width: 20vw;
