@@ -72,11 +72,11 @@ nav p {
     margin-block: 0;
 }
 #section1 h1 {
-    font-size: 70px;
+    font-size: 4.375em;
     margin-bottom: 10px;
 }
 #section1 p {
-    font-size: 40px;
+    font-size: 2.5em;
 }
 /* section 2 3 4 */
 /* div 1 */
@@ -92,7 +92,7 @@ main > section:not(section:first-of-type) > div {
 }
 .mainTitreH2 h2 {
     color: white;
-    font-size: 3.646vw;
+    font-size: 4.375em;
     font-weight: 450;
     margin-block: 2.304147465437788vw;
     margin-inline: 8.640552995391705vw;
@@ -112,7 +112,7 @@ main > section:not(section:first-of-type) > div {
     height: 20vw;
 }
 .mainLogo p {
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 400;
 }
 .mainLogo div > p:first-of-type {
@@ -143,7 +143,7 @@ main > section:not(section:first-of-type) > div {
 }
 .mainUl p {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.0625em;
 }
 
 /* footer */
@@ -155,7 +155,7 @@ footer p, footer h4 {
     color: white;
 }
 footer h4 {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 footer section:first-of-type {
     display: flex;
