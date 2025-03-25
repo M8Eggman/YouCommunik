@@ -92,10 +92,10 @@ main > section:not(section:first-of-type) > div {
 }
 .mainTitreH2 h2 {
     color: white;
-    font-size: 70px;
+    font-size: 3.646vw;
     font-weight: 450;
-    margin-block: 20px;
-    margin-inline: 75px;
+    margin-block: 2.304147465437788vw;
+    margin-inline: 8.640552995391705vw;
 }
 .mainLogo {
     display: flex;
@@ -132,7 +132,7 @@ main > section:not(section:first-of-type) > div {
     justify-content: center;
     column-gap: 150px;
     margin: 0;
-    padding-inline: 175px;
+    padding-inline: 9.115vw;
     padding-block: 40px;
 }
 .mainUl ul li {
@@ -167,6 +167,7 @@ footer section:first-of-type {
 }
 .footerLogo ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 0;
     padding-top: 20px;
